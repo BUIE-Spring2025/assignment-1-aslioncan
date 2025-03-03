@@ -44,17 +44,5 @@ def int_to_roman(num):
     return roman_binler + roman_yüzler + roman_onlar + roman_birler
 
 
-print(int_to_roman(2437))  # MMCDXXXVII
-print(int_to_roman(3999))  # MMMCMXCIX
-print(int_to_roman(4))  # IV
-print(int_to_roman(4000))
-
-
-
-
-    """
-    Convert an integer to a Roman numeral.
-
-    :param num: Integer value between 1 and 3999 inclusive.
-    :return: A string representing the Roman numeral of the integer.
-    """
+num = int(input("Please enter a number between 1 and 3999"))
+print(int_to_roman(num))
