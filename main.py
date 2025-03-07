@@ -43,6 +43,3 @@ def int_to_roman(num):
 
     return roman_binler + roman_yüzler + roman_onlar + roman_birler
 
-
-num = int(input("Please enter a number between 1 and 3999"))
-print(int_to_roman(num))
